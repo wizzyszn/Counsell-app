@@ -43,10 +43,14 @@ export default function Dashboard() {
         <div className=' flex flex-col gap-9'>
             {
                 data.map((elem,index) =>{
-                    return <div className=' flex items-center gap-4' key={index}><div className={`${elem.color} p-4 rounded-full`}>{elem.icon}</div> <p>{elem.name}</p> </div>
+                    return <div className=' flex items-center gap-4' key={index}><div className={`${elem.color} p-3 rounded-full`}>{elem.icon}</div> <p className=' text-sm'>{elem.name}</p> </div>
                 })
             }
         </div>
+          </div>
+         
+          <div className='bg-white shadow-sm p-4 space-y-4 h-[50%]'>
+           
           </div>
          
             
