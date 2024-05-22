@@ -9,3 +9,12 @@ body{
   background-color:#eef5f9;
 
 }
+th , td {
+  @apply p-4 text-sm border-b
+}
+th{
+  @apply font-semibold text-gray-600 text-left
+}
+td{
+  @apply text-gray-500 
+}

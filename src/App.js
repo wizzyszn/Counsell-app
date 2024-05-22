@@ -22,7 +22,6 @@ function App() {
         <Route path='/reservation' element= {<Reservation />} />
       </Routes>
       </BrowserRouter>
-      
     </div>
   );
 }
